@@ -22,7 +22,6 @@ public:
             quicksort(input, mid+1, r);
         }
     }
-    priority_queue<int, vector<int>> pq;
     vector<int> GetLeastNumbers_Solution(vector<int> input, int k) {
         vector<int> result;
         if (k ==0 || k > input.size()) return result;
