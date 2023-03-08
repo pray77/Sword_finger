@@ -22,7 +22,6 @@ class Solution:
         or self.dfs(matrix,rows,cols, str ,row,col+1,k)
         or self.dfs(matrix,rows,cols, str ,row,col-1,k)):
             return True
-        self.visited[row*cols+col] = False
         return False
                  
     def hasPath(self , matrix , rows , cols , str ):
